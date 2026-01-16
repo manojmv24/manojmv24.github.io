@@ -40,6 +40,61 @@ sections:
       avatar:
         size: medium # Options: small (150px), medium (200px, default), large (320px), xl (400px), xxl (500px)
         shape: circle # Options: circle (default), square, rounded
+  
+  - block: resume-experience
+    id: experience
+    content:
+      username: me
+      # Add a custom heading if desired
+      title: Experience
+    design:
+      spacing:
+        padding: ['40px', '0', '40px', '0']
+  
+  - block: collection
+    id: incubation
+    content:
+      title: Incubation and Startup Funding
+      filters:
+        folders:
+          - incubation
+        featured_only: false
+    design:
+      columns: '2'
+      view: card
+      spacing:
+        padding: ['40px', '0', '40px', '0']
+  
+  - block: collection
+    id: consultancy
+    content:
+      title: Consultancy Projects
+      filters:
+        folders:
+          - consultancy
+        featured_only: false
+    design:
+      columns: '2'
+      view: card
+      flip_alt_rows: false
+      spacing:
+        padding: ['40px', '0', '40px', '0']
+  
+  - block: collection
+    id: funded-projects
+    content:
+      title: Funded Projects
+      filters:
+        folders:
+          - funded-projects
+        featured_only: false
+    design:
+      columns: '2'
+      view: card
+      flip_alt_rows: false
+      spacing:
+        padding: ['40px', '0', '40px', '0']
+  
   - block: cta-card
     demo: true # Only display this section in the HugoBlox Kit demo site
     content:

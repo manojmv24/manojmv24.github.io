@@ -25,6 +25,7 @@ h1.name,
 }
 
 @media (max-width: 768px) {
+
     article h1:first-of-type,
     .biography h1,
     .author-bio h1,
@@ -39,30 +40,30 @@ h1.name,
     }
 }
 
-/* Style role designation in blue with smaller font - MAXIMUM SPECIFICITY */
-html body .role,
-html body [class*="role"],
-html body .author-card .role,
-html body .profile .role,
-html body article .role,
-html body section .role,
-html body div[class*="role"],
-html body span[class*="role"],
-html body p.role,
-html body h2.role,
-html body h3.role,
-body div:not(#fake-id) .role {
+/* Style role designation in blue with smaller font */
+.role,
+[class*="role"],
+.author-card .role,
+.profile .role,
+article .role,
+section .role,
+div[class*="role"],
+span[class*="role"],
+p.role,
+h2.role,
+h3.role {
     color: #3b82f6 !important;
     font-weight: 600 !important;
     display: block !important;
-    font-size: 12px !important;
+    font-size: 14px !important;
     line-height: 1.3 !important;
-    max-width: 100% !important;
 }
 
-/* Universal catch-all for role */
-[class*="role"]:not(.role-icon) {
-    font-size: 12px !important;
+/* Even more specific targeting - using px instead of rem */
+body .role,
+html body .role,
+* .role {
+    font-size: 14px !important;
 }
 
 /* Style and reduce affiliations size, display vertically */
@@ -82,4 +83,33 @@ body div:not(#fake-id) .role {
     font-size: 0.875rem !important;
     line-height: 1.4 !important;
     display: inline !important;
+}
+
+/* Make funded research section full width */
+#funded-research {
+    max-width: 100% !important;
+}
+
+#funded-research .container {
+    max-width: 100% !important;
+    padding-left: 2rem !important;
+    padding-right: 2rem !important;
+}
+
+/* Force consultancy, incubation, and funded-projects sections to display 2 items per row */
+#consultancy .grid,
+#incubation .grid,
+#funded-projects .grid {
+    display: grid !important;
+    grid-template-columns: repeat(2, 1fr) !important;
+    gap: 2rem !important;
+}
+
+@media (max-width: 768px) {
+
+    #consultancy .grid,
+    #incubation .grid,
+    #funded-projects .grid {
+        grid-template-columns: 1fr !important;
+    }
 }
