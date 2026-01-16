@@ -13,7 +13,7 @@ postnominals:
 status:
   icon: "☕️"
 role: "Professor"
-bio: "Dr Manoj Kumar M. V. is a Professor and Deputy Head at the Information Science and Engineering Department, Nitte Meenakshi Institute of Technology, Bengaluru. He also serves as a Non-Resident Research Fellow at MBRSG, Dubai, and Visiting Professor at Université Des Mascareignes, Mauritius.
+bio: "Dr. Manoj Kumar M. V. is a Professor and Deputy Head at the Information Science and Engineering Department, Nitte Meenakshi Institute of Technology, Bengaluru. He also serves as a Non-Resident Research Fellow at Mohammed Bin Rashid School of Government (MBRSG), Dubai, and Visiting Professor at Université Des Mascareignes, Mauritius.
 
 
   With a Ph.D. from NITK Surathkal and over 15 years of academic experience, Dr. Kumar is a Senior Member of IEEE and an active contributor to the IEEE Task Force on Process Mining. He has authored 90+ research publications, holds 5 patents and 2 Indian copyrights, and serves as an Associate Editor for Frontiers journals. His research focuses on Process Mining and Data Science, with teaching interests in Machine Learning, Statistics, Data Mining, and Programming in R. He has delivered 50+ invited talks and workshops internationally across six countries.\n"
@@ -54,6 +54,20 @@ interests:
   - "Statistical Analysis"
   - "Data Mining"
   - "Exploratory Data Analysis"
+education:
+  - degree: "Doctor of Philosophy (Ph.D.) in Computer Science and Engineering"
+    institution: "National Institute of Technology Karnataka (NITK), Surathkal"
+    year: "2017"
+    summary: "Ph.D. research title: 'An Approach for Handling Concept Drift and Model Simplification in log-based process analysis.' Thesis focused on addressing concept drift in process mining, developing trace logo visualization for control-flow perspective, and path discovery with complexity reduction in structured and unstructured processes. (CGPA: 8.00)"
+    advisor: "Dr. Annappa, Professor and former head, dept. of CS&E, NITK, Surathkal"
+  - degree: "Master of Technology (M.Tech.) in Computer Science & Engineering"
+    institution: "Visvesvaraya Technological University (VTU), Belagavi"
+    year: "2012"
+    summary: "Thesis: 'Token-based authentication using a dynamic password for E-payment using Android mobile phones.' Developed digital identification schemes and integrated mobile tokens for mobile e-payment systems using dynamic password-based token authentication. (Aggregate: 86.23%)"
+  - degree: "Bachelor of Engineering (B.E.) in Computer Science & Engineering"
+    institution: "Visvesvaraya Technological University (VTU), Belagavi"
+    year: "2009"
+    summary: "Thesis: 'MIN max topology optimization.' Focused on optimization techniques for network topology design and performance enhancement. (Aggregate: 70.01%)"
 experience:
   - role: "Non-Resident Research Fellow (NRF)"
     org: "Mohammed Bin Rashid School of Government (MBRSG), Dubai"
@@ -62,17 +76,17 @@ experience:
   - role: "Professor and Deputy Head of Department (Dy. HoD)"
     org: "Nitte Meenakshi Institute of Technology"
     start: "2024-11-01"
-    summary: "Leading the Information Science and Engineering Department, Nitte Deemed to be University, Bengaluru.\n"
+    summary: "Leading the Information Science and Engineering Department at Nitte Deemed to be University, Bengaluru.\n"
   - role: "Professor"
     org: "Nitte Meenakshi Institute of Technology"
     start: "2024-09-01"
     end: "2024-10-31"
-    summary: "Department of Information Science and Engineering, Nitte Deemed to be University, Bengaluru.\n"
+    summary: "Department of Information Science and Engineering at Nitte Deemed to be University, Bengaluru.\n"
   - role: "Associate Professor"
     org: "Nitte Meenakshi Institute of Technology"
     start: "2018-06-01"
     end: "2024-08-31"
-    summary: "Department of Information Science and Engineering, Nitte Deemed to be University, Bengaluru. Led R&D projects funded by VGST, TEQIP, and DST worth ₹30 lakhs, and executed international consultancy projects worth ₹25 lakhs.\n"
+    summary: "Department of Information Science and Engineering at Nitte Deemed to be University, Bengaluru. Led R&D projects funded by VGST, TEQIP, and DST worth ₹30 lakhs, and executed international consultancy projects worth ₹25 lakhs.\n"
   - role: "Associate Professor"
     org: "Jain Institute of Technology, Davanagere"
     start: "2017-11-01"
