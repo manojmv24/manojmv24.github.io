@@ -1,155 +1,168 @@
-schema: hugoblox/author/v1
-slug: me
+schema: "hugoblox/author/v1"
+slug: "me"
 is_owner: true
 name:
-  display: Dr. Manoj Kumar M. V.
-  given: Manoj Kumar
-  family: M. V.
-  alternate: ''  # Example: 王伟
-  pronunciation: ''  # Example: Wáng Wěi
-  pronouns: he/him
+  display: "Dr. Manoj Kumar M V"
+  given: "Manoj Kumar"
+  family: "M. V."
+  alternate: ""
+  pronunciation: ""
+  pronouns: "he/him"
 postnominals:
-  - PhD
+  - "PhD"
 status:
   icon: "☕️"
-role: Professor
-bio: |
-  Dr Manoj Kumar M. V. is a Professor and Deputy Head at the Information Science and Engineering Department, Nitte Meenakshi Institute of Technology, Bengaluru. He also serves as a Non-Resident Research Fellow at MBRSG, Dubai, and Visiting Professor at Université Des Mascareignes, Mauritius.
-  
-  With a Ph.D. from NITK Surathkal and over 15 years of academic experience, Dr. Kumar is a Senior Member of IEEE and an active contributor to the IEEE Task Force on Process Mining. He has authored 90+ research publications, holds 5 patents and 2 Indian copyrights, and serves as an Associate Editor for Frontiers journals. His research focuses on Process Mining and Data Science, with teaching interests in Machine Learning, Statistics, Data Mining, and Programming in R. He has delivered 50+ invited talks and workshops internationally across six countries.
+role: "Professor"
+bio: "Dr Manoj Kumar M. V. is a Professor and Deputy Head at the Information Science and Engineering Department, Nitte Meenakshi Institute of Technology, Bengaluru. He also serves as a Non-Resident Research Fellow at MBRSG, Dubai, and Visiting Professor at Université Des Mascareignes, Mauritius.
 
+
+  With a Ph.D. from NITK Surathkal and over 15 years of academic experience, Dr. Kumar is a Senior Member of IEEE and an active contributor to the IEEE Task Force on Process Mining. He has authored 90+ research publications, holds 5 patents and 2 Indian copyrights, and serves as an Associate Editor for Frontiers journals. His research focuses on Process Mining and Data Science, with teaching interests in Machine Learning, Statistics, Data Mining, and Programming in R. He has delivered 50+ invited talks and workshops internationally across six countries.\n"
 affiliations:
-  - name: Nitte Meenakshi Institute of Technology
-    url: https://nmit.ac.in/
-  - name: Mohammed Bin Rashid School of Government
-    url: https://www.mbrsg.ae/
- 
-
+  - name: "Nitte Meenakshi Institute of Technology"
+    url: "https://nmit.ac.in/"
+  - name: "Mohammed Bin Rashid School of Government"
+    url: "https://www.mbrsg.ae/"
 links:
-  - icon: at-symbol
-    url: mailto:alex.johnson@example.com
-    label: E-mail Me
-  - icon: brands/x
-    url: https://x.com/example
-  - icon: brands/github
-    url: https://github.com/example
-  - icon: brands/linkedin
-    url: https://www.linkedin.com/in/example/
-  - icon: academicons/google-scholar
-    url: https://scholar.google.com/citations?user=example
-  - icon: academicons/orcid
-    url: https://orcid.org/0000-0002-1825-0097
-
+  - icon: "at-symbol"
+    url: "mailto:manojkumar@nmit.ac.in"
+    label: "E-mail Me"
+  - icon: "brands/linkedin"
+    url: "https://www.linkedin.com/in/manojmv24/"
+    label: "LinkedIn"
+  - icon: "academicons/google-scholar"
+    url: "https://scholar.google.com/citations?user=Eg4-iHAAAAAJ&hl=en&authuser=1"
+    label: "Google Scholar"
+  - icon: "academicons/orcid"
+    url: "https://orcid.org/0000-0002-9848-6234"
+    label: "ORCID"
+  - icon: "academicons/researchgate"
+    url: "https://www.researchgate.net/profile/Manoj_M_V3"
+    label: "ResearchGate"
+  - icon: "academicons/scopus"
+    url: "https://www.scopus.com/authid/detail.uri?authorId=57218772075"
+    label: "Scopus"
+  - icon: "academicons/publons"
+    url: "https://publons.com/researcher/3177905/manoj-kumar/"
+    label: "Web of Science"
+  - icon: "academicons/cv"
+    url: "https://vidwan.inflibnet.ac.in/profile/325065"
+    label: "Vidwan"
 interests:
-  - Process Mining
-  - Data Science
-  - Machine Learning
-  - Statistical Analysis
-  - Data Mining
-  - Exploratory Data Analysis
-
-education:
-  - degree: Doctor of Philosophy (Ph.D.) in Computer Science and Engineering
-    institution: National Institute of Technology Karnataka (NITK), Surathkal
-    summary: |
-      Thesis: "An Approach for Handling Concept Drift and Model Simplification in log-based process analysis." Supervised by Dr. Annappa, Professor and former Head, Dept. of CS&E, NITK, Surathkal. CGPA: 8.00
-  - degree: Master of Technology (M.Tech) in Computer Science and Engineering
-    institution: BIET, Visvesvaraya Technological University (VTU), Belagavi
-  - degree: Bachelor of Engineering (B.E.) in Computer Science and Engineering
-    institution: JNNCE,Visvesvaraya Technological University (VTU), Belagavi
-
+  - "Process Mining"
+  - "Data Science"
+  - "Machine Learning"
+  - "Statistical Analysis"
+  - "Data Mining"
+  - "Exploratory Data Analysis"
 experience:
-  - role: Non-Resident Research Fellow (NRF)
-    org: Mohammed Bin Rashid School of Government (MBRSG), Dubai
-    start: 2024-06-01
-    summary: |
-      Contributing to research initiatives and academic collaborations in governance and policy at Dubai World Trade Centre, UAE.
-  - role: Professor and Deputy Head of Department (Dy. HoD)
-    org: Nitte Meenakshi Institute of Technology
-    start: 2024-11-01
-    summary: |
-      Leading the Information Science and Engineering Department, Nitte Deemed to be University, Bengaluru.
-  - role: Professor
-    org: Nitte Meenakshi Institute of Technology
-    start: 2024-09-01
-    end: 2024-10-31
-    summary: |
-      Department of Information Science and Engineering, Nitte Deemed to be University, Bengaluru.
-  - role: Associate Professor
-    org: Nitte Meenakshi Institute of Technology
-    start: 2018-06-01
-    end: 2024-08-31
-    summary: |
-      Department of Information Science and Engineering, Nitte Deemed to be University, Bengaluru. Led R&D projects funded by VGST, TEQIP, and DST worth ₹30 lakhs, and executed international consultancy projects worth ₹25 lakhs.
-  - role: Associate Professor
-    org: Jain Institute of Technology, Davanagere
-    start: 2017-11-01
-    end: 2018-05-31
-    summary: |
-      Department of Computer Science and Engineering, Davanagere, India.
-  - role: Assistant Professor
-    org: Jain Institute of Technology, Davanagere
-    start: 2017-08-01
-    end: 2017-10-31
-    summary: |
-      Department of Computer Science and Engineering, Davanagere, India.
-  - role: Teaching Assistant
-    org: National Institute of Technology Karnataka (NITK), Surathkal
-    start: 2013-01-01
-    end: 2017-07-31
-    summary: |
-      Department of Computer Science and Engineering, NITK, Surathkal, India.
-  - role: Assistant Professor
-    org: Bapuji Institute of Engineering and Technology, Davanagere
-    start: 2012-06-01
-    end: 2012-12-31
-    summary: |
-      Department of Computer Science and Engineering, Davanagere, India.
-
+  - role: "Non-Resident Research Fellow (NRF)"
+    org: "Mohammed Bin Rashid School of Government (MBRSG), Dubai"
+    start: "2024-06-01"
+    summary: "Contributing to research initiatives and academic collaborations in governance and policy at Dubai World Trade Centre, UAE.\n"
+  - role: "Professor and Deputy Head of Department (Dy. HoD)"
+    org: "Nitte Meenakshi Institute of Technology"
+    start: "2024-11-01"
+    summary: "Leading the Information Science and Engineering Department, Nitte Deemed to be University, Bengaluru.\n"
+  - role: "Professor"
+    org: "Nitte Meenakshi Institute of Technology"
+    start: "2024-09-01"
+    end: "2024-10-31"
+    summary: "Department of Information Science and Engineering, Nitte Deemed to be University, Bengaluru.\n"
+  - role: "Associate Professor"
+    org: "Nitte Meenakshi Institute of Technology"
+    start: "2018-06-01"
+    end: "2024-08-31"
+    summary: "Department of Information Science and Engineering, Nitte Deemed to be University, Bengaluru. Led R&D projects funded by VGST, TEQIP, and DST worth ₹30 lakhs, and executed international consultancy projects worth ₹25 lakhs.\n"
+  - role: "Associate Professor"
+    org: "Jain Institute of Technology, Davanagere"
+    start: "2017-11-01"
+    end: "2018-05-31"
+    summary: "Department of Computer Science and Engineering, Davanagere, India.\n"
+  - role: "Assistant Professor"
+    org: "Jain Institute of Technology, Davanagere"
+    start: "2017-08-01"
+    end: "2017-10-31"
+    summary: "Department of Computer Science and Engineering, Davanagere, India.\n"
+  - role: "Senior Research Fellow (MHRD fellowship)"
+    org: "National Institute of Technology Karnataka (NITK), Surathkal"
+    start: "2015-01-01"
+    end: "2017-07-31"
+    summary: "Distributed Computing Lab, Department of Computer Science and Engineering, NITK, Surathkal, India.\n"
+  - role: "Junior Research Fellow (MHRD fellowship)"
+    org: "National Institute of Technology Karnataka (NITK), Surathkal"
+    start: "2013-01-01"
+    end: "2014-12-31"
+    summary: "Cloud Computing Lab, Department of Computer Science and Engineering, NITK, Surathkal, India.\n"
+  - role: "Teaching Assistant"
+    org: "National Institute of Technology Karnataka (NITK), Surathkal"
+    start: "2013-01-01"
+    end: "2017-07-31"
+    summary: "Department of Computer Science and Engineering, NITK, Surathkal, India.\n"
+  - role: "Assistant Professor"
+    org: "Bapuji Institute of Engineering and Technology, Davanagere"
+    start: "2012-06-01"
+    end: "2012-12-31"
+    summary: "Department of Computer Science and Engineering, Davanagere, India.\n"
 skills:
-  - name: Teaching Expertise
+  - name: "Teaching Expertise"
     items:
-      - label: Machine Learning
+      - label: "Machine Learning"
         level: 5
-      - label: Statistics
+      - label: "Statistics"
         level: 5
-      - label: Programming in R
+      - label: "Programming in R"
         level: 5
-      - label: Data Mining
+      - label: "Data Mining"
         level: 5
-      - label: Exploratory Data Analysis
+      - label: "Exploratory Data Analysis"
         level: 5
-      - label: Computer Organisation
+      - label: "Computer Organisation"
         level: 4
-  - name: Research & Professional
+  - name: "Research & Professional"
     items:
-      - label: Process Mining
+      - label: "Process Mining"
         level: 5
-      - label: Data Science
+      - label: "Data Science"
         level: 5
-      - label: Academic Writing
+      - label: "Academic Writing"
         level: 5
-      - label: Workshop Facilitation
+      - label: "Workshop Facilitation"
         level: 5
-
 languages:
-  - name: English
+  - name: "English"
     level: 5
-    label: Fluent
-
+    label: "Fluent"
 awards:
-  - title: Best Paper Awards
-    awarder: Multiple Prestigious Conferences
+  - title: "Best Paper Awards"
+    awarder: "Multiple Prestigious Conferences"
     date: "2023-01-01"
-    summary: Received best paper awards at multiple prestigious international conferences for contributions to Process Mining and Data Science.
-    icon: hero/trophy
-  - title: 5 Granted Patents
-    awarder: Patent Office
+    summary: "Received best paper awards at multiple prestigious international conferences for contributions to Process Mining and Data Science."
+    icon: "hero/trophy"
+  - title: "5 Granted Patents"
+    awarder: "Patent Office"
     date: "2022-01-01"
-    summary: Awarded five patents for innovative contributions in computer science and engineering.
-    icon: hero/light-bulb
-  - title: 2 Indian Copyrights
-    awarder: Copyright Office, India
+    summary: "Awarded five patents for innovative contributions in computer science and engineering."
+    icon: "hero/light-bulb"
+  - title: "2 Indian Copyrights"
+    awarder: "Copyright Office, India"
     date: "2021-01-01"
-    summary: Credited with two Indian copyrights for original software and content creation.
-    icon: hero/document-text
+    summary: "Credited with two Indian copyrights for original software and content creation."
+    icon: "hero/document-text"
+  - title: "Smart Medicine Box Startup Funding"
+    awarder: "Atal Incubation Center, NITI Aayog, Nitte University"
+    date: "2024-01-01"
+    summary: "Received 2 Lakh Rupees funding for \"Development and Implementation of a Smart Medicine Box for Enhanced Medication Management and Accessibility Among the Elderly and Specially Abled\" under Mediglint LLP startup."
+    icon: "hero/light-bulb"
+  - title: "International Consultancy Projects"
+    awarder: "Cybernet Infocom, New Jersey, USA"
+    date: "2018-01-01"
+    summary: "Executed four international consultancy projects worth ₹25 lakhs total:
+
+      • Reorder - App for Online ordering (₹7 Lakhs, 2018, 2022)
+
+      • iCart - Easy Checkout Solution for Medical Equipment (₹5 Lakhs, 2019)
+
+      • NIHAPP - Counselling app for Psychiatric patients (₹4 Lakhs, 2020)
+
+      • First Impressions - Reactive and Responsive website for Décor (₹1 Lakh, 2022)\n"
+    icon: "hero/briefcase"
