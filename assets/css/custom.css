@@ -742,7 +742,7 @@ html body .role,
     #foreign-visits article {
         padding: 1.25rem;
     }
-    
+
     #foreign-visits article::before {
         font-size: 1.2rem;
         top: 1.25rem;

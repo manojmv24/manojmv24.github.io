@@ -4,24 +4,49 @@
   #   The weight parameter defines the order that the links will appear in.
 
 main:
-  - name: Bio
+  - name: Home
     url: /
     weight: 10
-  - name: Papers
-    url: /#papers
-    weight: 11
-  - name: Talks
-    url: /#talks
-    weight: 12
-  - name: News
-    url: /#news
-    weight: 13
   - name: Experience
     url: /#experience
     weight: 20
-  - name: Projects
-    url: /#projects
+  - name: Research
+    url: /#publications
     weight: 30
-  - name: Courses
-    url: /#courses
-    weight: 40
+  - name: Publications
+    parent: Research
+    url: /#publications
+    weight: 31
+  - name: Conferences
+    parent: Research
+    url: /#conferences
+    weight: 32
+  - name: Book Chapters
+    parent: Research
+    url: /#book-chapters
+    weight: 33
+  - name: Edited Books
+    parent: Research
+    url: /#edited-books
+    weight: 34
+  - name: Funded Projects
+    parent: Research
+    url: /#funded-projects
+    weight: 35
+  - name: Consultancy
+    parent: Research
+    url: /#consultancy
+    weight: 36
+  - name: Incubation
+    parent: Research
+    url: /#incubation
+    weight: 37
+  - name: Memberships
+    url: /#memberships
+    weight: 50
+  - name: Foreign Visits
+    url: /#foreign-visits
+    weight: 60
+  - name: Awards
+    url: /#awards
+    weight: 70
