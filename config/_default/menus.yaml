@@ -29,18 +29,26 @@ main:
     parent: Research
     url: /#edited-books
     weight: 34
+  - name: Patents
+    parent: Research
+    url: /#patents
+    weight: 35
+  - name: Copyrights
+    parent: Research
+    url: /#copyrights
+    weight: 36
   - name: Funded Projects
     parent: Research
     url: /#funded-projects
-    weight: 35
+    weight: 37
   - name: Consultancy
     parent: Research
     url: /#consultancy
-    weight: 36
+    weight: 38
   - name: Incubation
     parent: Research
     url: /#incubation
-    weight: 37
+    weight: 39
   - name: Memberships
     url: /#memberships
     weight: 50

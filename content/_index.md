@@ -18,7 +18,8 @@ sections:
       # Show a call-to-action button under your biography? (optional)
       button:
         text: Download CV
-        url: uploads/resume.pdf
+        url: https://docs.google.com/document/d/1j0riQwI-DZ1drDGgKCBOv25HujvYhbGD/edit?usp=sharing&ouid=106066607589782938361&rtpof=true&sd=true
+        target: _blank
       headings:
         about: ''
         interests: ''
@@ -155,6 +156,40 @@ sections:
       filters:
         folders:
           - edited-book
+        exclude_featured: false
+      count: 0
+    design:
+      view: citation
+      columns: 1
+      group_by: 'year'
+      spacing:
+        padding: ['40px', '0', '40px', '0']
+  
+  - block: collection
+    id: patents
+    content:
+      title: 🔬 Patents
+      text: ""
+      filters:
+        folders:
+          - patent
+        exclude_featured: false
+      count: 0
+    design:
+      view: citation
+      columns: 1
+      group_by: 'year'
+      spacing:
+        padding: ['40px', '0', '40px', '0']
+  
+  - block: collection
+    id: copyrights
+    content:
+      title: ©️ Copyrights
+      text: ""
+      filters:
+        folders:
+          - copyright
         exclude_featured: false
       count: 0
     design:
