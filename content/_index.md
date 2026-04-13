@@ -61,6 +61,7 @@ sections:
     design:
       columns: '2'
       view: article-grid
+      
       spacing:
         padding: ['40px', '0', '40px', '0']
   
@@ -189,7 +190,7 @@ sections:
     design:
       columns: 2
       view: article-grid
-      fill_image: false
+      
       spacing:
         padding: ['40px', '0', '40px', '0']
   
@@ -204,7 +205,7 @@ sections:
     design:
       columns: '3'
       view: article-grid
-      fill_image: false
+      fill_image: true
       spacing:
         padding: ['40px', '0', '40px', '0']
   
