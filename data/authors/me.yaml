@@ -69,6 +69,10 @@ education:
     year: "2010"
     summary: "Thesis: 'MIN max topology optimization.' Focused on optimization techniques for network topology design and performance enhancement. (Aggregate: 70.01%)"
 experience:
+  - role: "Visiting Professor"
+    org: "Université des Mascareignes, Mauritius"
+    start: "2026-03-01"
+    summary: "Traditional Mobility Scheme, HEC, Mauritius, under Ministry of Tertiary Education, Science and Research.\n"
   - role: "Non-Resident Research Fellow (NRF)"
     org: "Mohammed Bin Rashid School of Government (MBRSG), Dubai"
     start: "2024-06-01"
